@@ -1,0 +1,10 @@
+{
+  "nickname_font": "Segoe UI",
+  "text_font": "Segoe UI",
+  "nickname_color": "#00FF00",
+  "text_color": "#C9D1D9",
+  "appear_effect": "fadeIn",
+  "hide_effect": "fadeOut",
+  "show_time": 21,
+  "nickname_shadow": true
+}

@@ -1,0 +1,14 @@
+{
+  "nickname_font": "Fontin",
+  "nickname_font_size": 16,
+  "text_font": "Fontin",
+  "text_font_size": 14,
+  "nickname_color": "#C4A000",
+  "text_color": "#D4C5A0",
+  "appear_effect": "fadeIn",
+  "hide_effect": "fadeOut",
+  "show_time": 12,
+  "nickname_shadow": true,
+  "background_opacity": 0.95,
+  "border_color": "#3d2817"
+}

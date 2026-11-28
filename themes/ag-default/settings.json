@@ -1,0 +1,14 @@
+{
+  "nickname_font": "Segoe UI",
+  "nickname_font_size": 15,
+  "text_font": "Segoe UI",
+  "text_font_size": 14,
+  "nickname_color": "#00BFFF",
+  "text_color": "#C9D1D9",
+  "appear_effect": "fadeIn",
+  "hide_effect": "fadeOut",
+  "show_time": 10,
+  "nickname_shadow": true,
+  "background_opacity": 0.95,
+  "border_color": "#30363D"
+}

@@ -1,0 +1,83 @@
+/* Path of Exile Theme */
+* { box-sizing: border-box; }
+body {
+    background: linear-gradient(135deg, #1a0f0a 0%, #2d1810 50%, #1a0f0a 100%);
+    font-family: 'Fontin', 'Segoe UI', sans-serif;
+    color: #D4C5A0;
+    margin: 0;
+    padding: 10px;
+    min-height: 100vh;
+}
+.message {
+    background: linear-gradient(90deg, rgba(26,15,10,0.95) 0%, rgba(45,24,16,0.9) 100%);
+    border-left: 3px solid #C4A000;
+    border-right: 1px solid #3d2817;
+    border-top: 1px solid #3d2817;
+    border-bottom: 1px solid #3d2817;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 1px 0 rgba(196,160,0,0.1);
+    animation: fadeIn 0.3s ease-in;
+    position: relative;
+    overflow: hidden;
+}
+.message::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(196,160,0,0.3), transparent);
+}
+.nickname {
+    color: #C4A000;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 0 0 8px rgba(196,160,0,0.3), 0 0 16px rgba(196,160,0,0.1);
+    margin-right: 4px;
+}
+.text {
+    color: #D4C5A0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.timestamp {
+    color: #8B7355;
+    font-size: 11px;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.emote {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin: 0 2px;
+    filter: drop-shadow(0 0 4px rgba(196,160,0,0.5));
+}
+.system-message {
+    background: rgba(196,160,0,0.1);
+    border-left: 3px solid #C4A000;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-style: italic;
+    color: #C4A000;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+@keyframes glow {
+    0%, 100% { box-shadow: 0 0 8px rgba(196,160,0,0.3); }
+    50% { box-shadow: 0 0 16px rgba(196,160,0,0.6); }
+}
+.message:hover {
+    animation: glow 2s ease-in-out infinite;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Chat AG Default",
+  "color": "#00BFFF",
+  "badge": "AG",
+  "order": 1,
+  "description": "Дефолтная тема Chat AG — тёмный фон, зелёные акценты",
+  "emotes": [
+    "like",
+    "fire",
+    "heart",
+    "star",
+    "cool"
+  ]
+}

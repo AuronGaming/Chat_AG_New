@@ -1,0 +1,8 @@
+body { margin:0; background:transparent; font-family:'Segoe UI',Arial,sans-serif; overflow:hidden; }
+#chat { display:flex; flex-direction:column; gap:4px; padding:10px; }
+.message { background:rgba(27,31,36,0.8); border-left:3px solid #de9b35; padding:5px 10px;
+           color:#d6dbe1; font-size:14px; font-weight:500; }
+.badge { color:#1b1f24; background:#de9b35; padding:1px 6px; font-size:10px; margin-right:6px;
+         text-transform:uppercase; font-weight:bold; }
+.user { color:#f0a93c; font-weight:bold; }
+.text { color:#d6dbe1; }

@@ -1,0 +1,14 @@
+{
+  "name": "Path of Exile",
+  "color": "#C4A000",
+  "badge": "POE",
+  "order": 3,
+  "description": "Тёмная тема в стиле Path of Exile с золотыми акцентами",
+  "emotes": [
+    "exalted",
+    "chaos",
+    "divine",
+    "regal",
+    "mirror"
+  ]
+}
